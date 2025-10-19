@@ -1,30 +1,48 @@
-# companies-directory
+# Companies Directory
 
-Companies Directory is a web application built with React and Material UI that allows users to search and filter a list of companies by name, industry, location, and country.
+A responsive React web application built with Material UI that allows users to search, filter, and view a directory of companies by various attributes, including name, industry, location, and country.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search companies by name.
+- Filter companies by industry, location, and country.
+- Responsive and clean interface using Material UI components.
+- Data loaded from a JSON file (`companies.json`).
+- Easy to extend with new fields or data sources.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (version 14 or later recommended)
+- npm (comes with Node.js)
 
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. Clone the repository:
+    ```
+    git clone https://github.com/your-username/companies-directory.git
+    cd companies-directory
+    ```
 
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+    ```
+    npm install
+    ```
 
-### `npm run build`
+3. Run the application in development mode:
+    ```
+    npm start
+    ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
+- `/public/companies.json` - Company Data, which includes id, name, industry, location, and country.
+- `/src/CompanyFilter.js` - Component for filtering companies.
+- `/src/CompanyList.js` - Component to display the list of companies.
+- `/src/App.js` - Main app component where state and logic reside.
+- `/src/App.css` - Styles for app and components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+
+To build the app for production, run:
+
