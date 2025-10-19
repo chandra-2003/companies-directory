@@ -1,0 +1,62 @@
+[
+{"id": 1,
+"name": "Abbott Laboratories",
+"industry": "Medical",
+"location": "Illinois",
+"country": "USA"
+},
+{"id": 2,
+"name": "Bharat Sanchar Nigam Limited (BSNL)",
+"industry": "Telecommunications",
+"location": "New Delhi",
+"country": "India"
+},
+{"id": 3,
+"name": "National Aeronautics and Space Administration (NASA)",
+"industry": "Aerospace and Space Research",
+"location": "Washington, D.C.",
+"country": "USA"
+},
+{"id": 4,
+"name": "John Deere",
+"industry": "Agriculture",
+"location": "Illinois",
+"country": "USA"
+},
+{"id": 5,
+"name": "Infosys Ltd",
+"industry": "Technology",
+"location": "Karnataka",
+"country": "India"
+},
+{"id": 6,
+"name": "JPMorgan Chase & Co.",
+"industry": "Finance",
+"location": "New York",
+"country": "USA"
+},
+{"id": 7,
+"name": "Byju's",
+"industry": "Education",
+"location": "Karnataka",
+"country": "India"
+},
+{"id": 8,
+"name": "Tata Steel",
+"industry": "Manufacturing",
+"location": "Jharkhand",
+"country": "India"
+},
+{"id": 9,
+"name": "Flipkart",
+"industry": "E-commerce/Technology",
+"location": "Karnataka",
+"country": "India"
+},
+{"id": 10,
+"name": "Amazon",
+"industry": "E-commerce/Technology",
+"location": "Washington",
+"country": "USA"
+}
+]
